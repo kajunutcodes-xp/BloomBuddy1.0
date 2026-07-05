@@ -6,6 +6,8 @@ you will be able to:
 
 choose the type of seedling (species of plant) in your garden,
  log your time completing the tasks (time taken to complete each task),
-  view a progress chart,
+ view a progress chart,
   
    anddd many moreee!
+
+   *garden = a virtual garden with various botanic species!
