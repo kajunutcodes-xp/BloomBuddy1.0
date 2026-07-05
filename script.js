@@ -24,6 +24,7 @@ checkbox.addEventListener("change",function() {
     } else {
         text.style.textDecoration="none";
         text.style.color ="black";
+    
     }
 });
 
