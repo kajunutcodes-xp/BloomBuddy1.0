@@ -2,12 +2,19 @@ This is BloomBuddy! It's a habit tracker where upon completing tasks your garden
 
 -{in future updates} 
 
-you will be able to:
+I plan to add:
 
-choose the type of seedling (species of plant) in your garden,
- log your time completing the tasks (time taken to complete each task),
- view a progress chart,
-  
-   anddd many moreee!
+Choose different plant species for your garden
+ Track the time taken to complete each task 
+ View productivity charts and progress over time
+ Rewards, achievements, and streaks
+ Unlock new plants and decorations
+...and many moreee! :)
 
-   *garden = a virtual garden with various botanic species!
+teck stack (present)
+HTML
+CSS
+JavaScript
+GitHub Pages
+
+
