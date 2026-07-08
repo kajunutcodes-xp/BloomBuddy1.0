@@ -11,6 +11,8 @@ Choose different plant species for your garden
  Unlock new plants and decorations
 ...and many moreee! :)
 
+The aim :
+The aim and motivation for this project is to gamify learning and boost productivity and it's simplicity enables people with low to no experience to use it smoothly!
 teck stack (present)
 HTML
 CSS
@@ -20,4 +22,8 @@ GitHub Pages
 
 project for #beest !!
 
+
+
+
+![website screen shot!](https://cdn.hackclub.com/019f414f-b2c8-72d2-afda-c85f00d81295/Screenshot_20260708_143828_Chrome.jpg)
 
