@@ -1,34 +1,107 @@
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"content="width=device-width, initial-scale=1.0">
-        <title>BloomBuddy</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BloomBuddy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top-bar">
+
         <h1>BloomBuddy</h1>
-        <p>Watch your garden thrive as you complete tasks!</p>
-        <div class="plant">
-            🌱
-            </div>
-        <h2>Today's Tasks</h2>
-        <input id= "taskInput" type ="text" placeholder="Plant a new task..">
-        <button onclick = "addTask()">Add task</button>
-        <ul id="taskList"></ul>
-            </ul>
-            <script src ="script.js"></script>
-            </body>
-            </html>
-        
-        
-             
 
- 
-  
+        <button id="shopButton" onclick="openShop()">
+            🛒 Shop
+        </button>
 
+    </div>
 
+    <p>Watch your garden thrive as you complete tasks!</p>
 
-    
+    <div class="plant">
 
+        <div id="plant">🌱</div>
 
+        <h2 id="plantName">Seedling</h2>
+
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+
+        <p id="progressText">0% grown</p>
+
+    </div>
+
+    <h2>Today's Tasks</h2>
+
+    <input
+        id="taskInput"
+        type="text"
+        placeholder="Plant a new task..."
+    >
+
+    <button onclick="addTask()">
+        Add Task
+    </button>
+
+    <ul id="taskList"></ul>
+
+    <div class="stats">
+
+        <p>
+            ✔ Completed:
+            <span id="completedCount">0</span>
+        </p>
+
+        <p>
+            🪙 Bloom Coins:
+            <span id="coins">0</span>
+        </p>
+
+    </div>
+
+    <div id="shopWindow" class="shop-window">
+
+        <h2>🌸 Garden Shop</h2>
+
+        <div class="shop-item">
+
+            <h3>💧 Growth Water</h3>
+
+            <p>Cost: 🪙 5</p>
+
+            <button onclick="buyWater()">
+                Buy
+            </button>
+
+        </div>
+
+        <div class="shop-item">
+
+            <h3>🌿 Fertilizer</h3>
+
+            <p>Cost: 🪙 10</p>
+
+            <button onclick="buyFertilizer()">
+                Buy
+            </button>
+
+        </div>
+
+        <button onclick="closeShop()">
+            ❌ Close
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
