@@ -22,13 +22,19 @@ GitHub Pages
 
 project for #thingonadesk! (my first YSWS :3)
 
+P.S this website was made keeping in mind to make it look simple and not very messy so don't let the clean layout fool you!  This website has tons of features which will help you boost your incentive based productivity! BECAUSE at the end of the day,
+it BYteens FORteens for helping and supporting each other
 
 
 
 
-![website screen shot!](https://cdn.hackclub.com/019f7174-644d-76e7-b1b9-9e1e072fbdf8/Screenshot%202026-07-17%20230035.png))
+
+![website screen shot!](https://cdn.hackclub.com/019f7174-644d-76e7-b1b9-9e1e072fbdf8/Screenshot%202026-07-17%20230035.png)
 
 ![website screen shot!](https://cdn.hackclub.com/019f7175-bc16-7866-aeab-95446acad202/Screenshot%202026-07-17%20230236.png)
+
+made with love by @ayesha 
+All Rights Reserved.
 
 
 
