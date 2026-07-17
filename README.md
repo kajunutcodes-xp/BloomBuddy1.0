@@ -1,29 +1,31 @@
-This is BloomBuddy! It's a habit tracker where upon completing tasks your garden* grows and thrives according to the efficiency of your tasks 
+This is BloomBuddy! It's a habit tracker where upon completing tasks your plant grows and thrives according to the efficiency of your task completion!
 
--{in future updates} 
-
-I plan to add:
-
-Choose different plant species for your garden
- Track the time taken to complete each task 
- View productivity charts and progress over time
- Rewards, achievements, and streaks
- Unlock new plants and decorations
-...and many moreee! :)
-
+-
 The aim :
 The aim and motivation for this project is to gamify learning and boost productivity and it's simplicity enables people with low to no experience to use it smoothly!
-teck stack (present)
+
+🌸 How to Use
+
+1. Type an acheivable task into the input box.
+2. Click *Add Task* to add it to your digital to-do list.
+3. Complete a task by checking its checkbox.
+4. Earn *Bloom Coins* for every completed task.
+5. Spend your coins in the *Shop* to buy GrowthBoosters™ like H2O and fertilizer!
+6. As you complete more tasks and use shop items, your plant will grow through different stages—from a tiny seedling to a fully bloomed tree :yay:!
+7. Keep completing tasks to grow the healthiest botanical species possible.
+
+Teck stack 
 HTML
 CSS
 JavaScript
 GitHub Pages
 
 
-project for #beest !!
+project for #thingonadesk! (my first YSWS :3)
 
 
 
 
-![website screen shot!](https://cdn.hackclub.com/019f414f-b2c8-72d2-afda-c85f00d81295/Screenshot_20260708_143828_Chrome.jpg)
+
+![website screen shot!](https://cdn.hackclub.com/019f7174-644d-76e7-b1b9-9e1e072fbdf8/Screenshot%202026-07-17%20230035.png))
 
