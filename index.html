@@ -4,104 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>BloomBuddy</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    
     <div class="top-bar">
-
         <h1>BloomBuddy</h1>
-
         <button id="shopButton" onclick="openShop()">
             🛒 Shop
         </button>
-
     </div>
 
     <p>Watch your garden thrive as you complete tasks!</p>
 
-    <div class="plant">
+    <div class="main-layout">
 
-        <div id="plant">🌱</div>
+        <div class="game-container">
+            <div class="plant">
+                <div id="plant" style="font-size: 5rem; display: inline-block;">🌱</div>
+                <h2 id="plantName">Seedling</h2>
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+                <p id="progressText">0% grown</p>
+            </div>
 
-        <h2 id="plantName">Seedling</h2>
+            <h2>Today's Tasks</h2>
+            <input id="taskInput" type="text" placeholder="Plant a new task...">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList"></ul>
 
-        <div class="progress-bar">
-            <div id="progressFill"></div>
+            <div class="stats">
+                <p>✔ Completed: <span id="completedCount">0</span></p>
+                <p>🪙 Bloom Coins: <span id="coins">0</span></p>
+            </div>
         </div>
 
-        <p id="progressText">0% grown</p>
+        <div class="instructions-container">
+            <h3>🌱 How to Grow Your Plant</h3>
+            
+            <div class="step-card">
+                <div class="step-icon">📝</div>
+                <div class="step-text">
+                    <strong>Plant Tasks:</strong> Type a real-life (acheivable) task and press {add task} to plant it in your list.Your plant grows after every 10 completed tasks!
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-icon">🪙</div>
+                <div class="step-text">
+                    <strong>Earn Bloom Coins!:</strong> Check off a completed task to earn 1 Bloom coin (don't hesitate to spend them all in the shop :3).
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-icon">🏪</div>
+                <div class="step-text">
+                    <strong>Visit the Shop:</strong> Spend your hard-earned coins on Water or Fertilizer to boost Plant growth!.
+                </div>
+            </div>
+
+            <div class="step-card">
+                <div class="step-icon">🌳</div>
+                <div class="step-text">
+                    <strong>Evolve:</strong> Keep completing tasks and buying items to watch your seedling turn into a giant tree! (uses incentive psychology!)
+                </div>
+            </div>
+        </div>
 
     </div>
 
-    <h2>Today's Tasks</h2>
-
-    <input
-        id="taskInput"
-        type="text"
-        placeholder="Plant a new task..."
-    >
-
-    <button onclick="addTask()">
-        Add Task
-    </button>
-
-    <ul id="taskList"></ul>
-
-    <div class="stats">
-
-        <p>
-            ✔ Completed:
-            <span id="completedCount">0</span>
-        </p>
-
-        <p>
-            🪙 Bloom Coins:
-            <span id="coins">0</span>
-        </p>
-
-    </div>
-
-    <div id="shopWindow" class="shop-window">
-
-        <h2>🌸 Garden Shop</h2>
-
-        <div class="shop-item">
-
-            <h3>💧 Growth Water</h3>
-
-            <p>Cost: 🪙 5</p>
-
-            <button onclick="buyWater()">
-                Buy
-            </button>
-
+    <div id="shopWindow" class="shop-window" style="display:none;">
+        <h2>Garden shop</h2>
+        <div class="shopItem">
+            <h3>Growth Potion (just H20 :)</h3>
+            <p>Price: 5 Bloom Coins</p>
+            <button onclick="buyWater()">Buy</button>
         </div>
-
-        <div class="shop-item">
-
-            <h3>🌿 Fertilizer</h3>
-
-            <p>Cost: 🪙 10</p>
-
-            <button onclick="buyFertilizer()">
-                Buy
-            </button>
-
+        <hr>
+        <div class="shopItem">
+            <h3>Fertilizer</h3>
+            <p>Price: 10 Bloom coins</p>
+            <button onclick="buyFertilizer()">Buy</button>
         </div>
-
-        <button onclick="closeShop()">
-            ❌ Close
-        </button>
-
+        <br>
+        <button onclick="closeShop()">Close Shop</button>
     </div>
 
     <script src="script.js"></script>
 
 </body>
-
 </html>
