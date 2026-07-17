@@ -27,7 +27,7 @@ it BYteens FORteens for helping and supporting each other
 
 
 
-
+PROJECT MAY BE LIVE IN OLDER VER. DUE TO GITHUB PAGES ISSUE. PLEASE REFER TO BELOW SCREEN SHOTS FOR ITS ACTUAL LAYOUT AND FUNCTIONING  DETAILS (kindly refresh live site upon visiting to clear cache!)
 
 ![website screen shot!](https://cdn.hackclub.com/019f7174-644d-76e7-b1b9-9e1e072fbdf8/Screenshot%202026-07-17%20230035.png)
 
